@@ -1,0 +1,3 @@
+Para utilizar import y export hay que utilizar Installing the database tools
+mongoimport --db autos --collection inventario --type json --file autos.json --jsonArray
+mongoexport -d autos -c inventario --type json --out miNuevoExportado.json

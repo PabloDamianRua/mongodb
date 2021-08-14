@@ -1,0 +1,41 @@
+db.empleado.insert([
+{
+    "nombre": "Pablo",
+    "puesto": "QA",
+    "trabajo": "remoto",
+    "ingreso": new Date("01/01/2006"),
+    "covid": true
+},
+{
+    "nombre": "Martin",
+    "puesto": "QA",
+    "trabajo": "remoto",
+    "ingreso": new Date("01/01/2009"),
+    "covid": true
+},
+{
+    "nombre": "Guido",
+    "puesto": "QA",
+    "trabajo": "remoto",
+    "ingreso": new Date("01/01/2017")
+},
+{
+    "nombre": "Nadia",
+    "puesto": "QA",
+    "trabajo": "remoto",
+    "ingreso": new Date("01/01/2021")
+},
+{
+    "nombre": "Sergio",
+    "puesto": "QA",
+    "trabajo": "remoto",
+    "ingreso": new Date("01/02/2021")
+},
+{
+    "nombre": "Filomena",
+    "puesto": "QA",
+    "trabajo": "remoto",
+    "ingreso": new Date("01/01/2021")
+}
+]
+)
