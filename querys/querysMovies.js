@@ -16,8 +16,8 @@ var rows2 = db.movies.aggregate([
             }
             
     },
-    { $sort : { "total" : -1 } }
-   
+    { $sort : { "total" : -1 } },
+    { $limit: 5 } //show only five rows
 ]);
 
 rows2.forEach(row => {
